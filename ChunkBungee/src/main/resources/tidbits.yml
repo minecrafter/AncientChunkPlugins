@@ -1,0 +1,5 @@
+enderpasses: "&ePurchase Ender Passes from &6&nhttp://thechunk.net/shop/1"
+list: "&c[{SERVER}] &e({SERVNUM}): &r{SERVLIST}\n&eTo see all players online, use /glist showall."
+rules: "&eYou can read the rules at &6&nhttp://thechunk.net/rules"
+help: |
+  &eUse &6/stats&e for statistics.

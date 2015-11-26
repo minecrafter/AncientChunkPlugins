@@ -1,0 +1,13 @@
+name: ChunkLobby
+main: net.minerware.chunklobby.ChunkLobby
+version: 1.0
+commands:
+  joinlobby:
+    description: Join a lobby manually.
+    usage: /joinlobby LOBBY
+  lobbies:
+    description: List all lobbies available to join.
+    usage: /lobbies
+  leave:
+    description: Leave the lobby you are in and return to the hub server.
+    usage: /leave

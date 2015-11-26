@@ -1,0 +1,4 @@
+name: ChunkBungee
+main: net.thechunk.chunkbungee.ChunkBungee
+version: 1
+author: tuxed, vemacs

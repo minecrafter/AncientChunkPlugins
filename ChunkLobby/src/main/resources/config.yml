@@ -1,0 +1,38 @@
+# Specify the redis server to use.
+redis-server: localhost
+hub:
+ # Only one instance should this be set to true.
+ is: true
+ # What is that instance called?
+ server: lobby
+ world: world
+# Specify the current server, as known by BungeeCord (you can /server NAME to it)
+server: lobby
+servers:
+ # Specify the server where the lobbies below are found.
+ # This should be the name known by BungeeCord (you can /server NAME to it)
+ two:
+  # The direct IP address to it.
+  # Can be omitted on non-hub servers.
+  address:
+   ip: 127.0.0.1
+   port: 25569
+  lobbies:
+   world1:
+    # Maximum number of "regular" players who can connect.
+    cap: 14
+    # Extra number of "VIP" players who can connect.
+    extra: 1
+    # Where the lobby sign is located.
+    # Can be omitted on non-hub servers.
+    sign:
+     x: -154.0
+     y: 69.0
+     z: 225.0
+    # Where the bottom portal block is located.
+    # Can be omitted on non-hub servers.
+    portal:
+     x: -153.0
+     y: 69.0
+     z: 225.0
+
